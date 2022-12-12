@@ -33,3 +33,5 @@ How to load to ledger (Nano S):
  ```
  python.exe C:\temp\nanos-secure-sdk\icon.py 32 32 C:\temp\app-cryptoescudo\nanos_app_cryptoescudo.gif hexbitmaponly
  ```
+ 
+ BOLOS Python loader ref: https://buildmedia.readthedocs.org/media/pdf/bolos-python-loader/0.1.20/bolos-python-loader.pdf
