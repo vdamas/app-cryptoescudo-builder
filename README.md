@@ -22,13 +22,14 @@ How to load to ledger (Nano S):
  - pip install ledgerblue
 
  - connect ledger and unlock it with pin
- - Untar the file to a desired location eg c:\temp\app-cryptoescudo
+ - Untar the file to a desired location
  
  ```
  python.exe -m ledgerblue.loadApp --targetId 0x31100004 --path "44'/111'" --fileName [path to the app.hex file] --appName "CryptoEscudo" --appVersion 2.1.0 --tlv --delete --icon 0100000000ffffff00ffffffffffffffff3ffc9ffb9fff9fff9fff9fff9ffb3ffcffffffffffffffff --dep Bitcoin
  ```
  
  the icon hex is created with https://github.com/LedgerHQ/nanos-secure-sdk, clone it and eg c:\temp 
+ clone also https://github.com/vdamas/app-cryptoescudo and see in glyphs folder the cryptoescudo images 
  ```
  python.exe C:\temp\nanos-secure-sdk\icon.py 32 32 C:\temp\app-cryptoescudo\nanos_app_cryptoescudo.gif hexbitmaponly
  ```
