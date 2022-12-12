@@ -29,7 +29,7 @@ How to load to ledger (Nano S):
  ```
  
  the icon hex is created with https://github.com/LedgerHQ/nanos-secure-sdk, clone it and eg c:\temp 
- clone also https://github.com/vdamas/app-cryptoescudo and see in glyphs folder the cryptoescudo images 
+ clone also https://github.com/vdamas/app-cryptoescudo and search in glyphs folder the cryptoescudo images 
  ```
  python.exe C:\temp\nanos-secure-sdk\icon.py 32 32 C:\temp\app-cryptoescudo\nanos_app_cryptoescudo.gif hexbitmaponly
  ```
