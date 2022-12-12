@@ -10,7 +10,7 @@ cd /workspace
 git clone https://github.com/vdamas/app-cryptoescudo
 cd /workspace/app-cryptoescudo
 
-docker run --rm -ti -v "$(realpath .):/app" $ID make
+docker run --rm -ti -v "$(realpath .):/app" $ID make COIN=cryptoescudo
 
 cd /workspace
 dt=$(date '+%Y%m%d%H%M')
